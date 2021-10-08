@@ -1,0 +1,30 @@
+{
+  "name": "pug-sample-project",
+  "version": "1.0.0",
+  "description": "pugのサンプルプロジェクトです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosemasashi1013/pug-sample-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosemasashi1013/pug-sample-project/issues"
+  },
+  "homepage": "https://github.com/nosemasashi1013/pug-sample-project#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0"
+  }
+}
